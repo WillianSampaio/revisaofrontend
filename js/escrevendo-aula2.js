@@ -16,5 +16,5 @@ button.onclick = function () {
   }else{
     alert("ERROOOOOOOU");
   }
-  window.location="aula3.html";
+  window.location="aula4.html";
 };
