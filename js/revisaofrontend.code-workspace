@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "revisaofrontend",
+			"path": ".."
+		},
+		{
+			"name": "js",
+			"path": "..\\..\\..\\Downloads\\revisaofrontend-master\\js"
+		}
+	],
+	"settings": {
+		"livePreview.defaultPreviewPath": "c:\\Users\\Aluno\\Documents\\revisaofrontend\\index.html"
+	}
+}
