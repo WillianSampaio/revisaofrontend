@@ -10,11 +10,14 @@ var button = document.querySelector("button");
 
 button.onclick = function () {
 
-  var nome = prompt("Qual é o comando para iniciar o git?");
-  if ((nome = "git init")) {
-    alert("O " + nome + ", serve para iniciar o git.Parabéns você acertou!");
+  var nome = prompt("Qual o comando para visualizar o histórico de commits para o repositório?");
+  if ((nome == "git log")) {
+    alert("O " + nome + ", serve para visualizar o histórico de commits.Parabéns você acertou!");
   }else{
-    alert("ERROOOOOOOU");
+    if (window.confirm("Infelizmente você não acertou... Acesse:\n'https://www.w3schools.com/git/git_commit.asp?remote=github' \ne tente mais tarde.\nClique em OK para acessar o link:")) {
+      window.open('https://www.w3schools.com/git/git_commit.asp?remote=github', '_blank');
+    };
+    //alert("Infelizmente você não acertou... Acesse:'https://www.w3schools.com/git/git_commit.asp?remote=github' e tente mais tarde.");
   }
   window.location="aula7.html";
 };
